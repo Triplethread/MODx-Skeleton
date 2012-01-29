@@ -1,0 +1,12 @@
+"MODX Skeleton" is a HTML5/CSS3/jQuery based responsive frontend MODx template with a userfriendly grid.
+
+Skeleton is a small collection of CSS & JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. Skeleton is built on three core principles:
+
+Responsive Grid Down To Mobile
+Fast to Start
+Style Agnostic
+
+This files can be used with MODX Revolution and can be used as a basic HTML5 website template. It has some fallbacks for old browsers and IE.
+
+Check the original files here:
+http://www.getskeleton.com

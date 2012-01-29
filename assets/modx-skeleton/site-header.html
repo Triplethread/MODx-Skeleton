@@ -13,8 +13,8 @@
 	<title>[[*pagetitle]] - [[++site_name]]</title>
 	<!-- change RSS ID or remove next line -->
 	<link rel="alternate" type="application/rss+xml" title="[[++site_name]] RSS Feed" href="[[~1]]">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="[[*introtext:empty=`[[*content:strip_tags]]`:limit=`200`]]">
+	<meta name="author" content="[[If? &subject=`[[*publishedby]]` &operator=`>` &operand=`0` &then=`[[*publishedby:userinfo=`fullname`]]` &else=`[[*createdby:userinfo=`fullname`]]`]]" />
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -35,14 +35,12 @@
 
 </head>
 <body>
+	<header>
+	<!-- use this section for your header of website with logotype, navigation etc. -->
+	</header>
 
 	<!-- Primary Page Layout
 	================================================== -->
-	<div class="container">
-		<h1 style="margin-top: 100px; text-align:center">Sorry. Couldn't Find That Page!</h1>
-	</div>
 
-<!-- End Document
-================================================== -->
-</body>
-</html>
+	<div class="container" role="main">
+	  <!-- Content goes here -->
